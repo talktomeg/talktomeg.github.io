@@ -14,5 +14,8 @@
     $('#nav-toggle').on('click', function() {
       this.classList.toggle('active');
     });
+     $('#nav-toggle').on('touchstart', function() {
+      this.classList.toggle('active');
+    });
   });
 })(jQuery);
