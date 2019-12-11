@@ -1,5 +1,42 @@
 <div id="particles-js">
-  <div class="header">
+
+      <section class="nav-bar">
+  <div class="nav-container">
+      <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+
+           <li>
+          <a href="#">Resume</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="#">HTML</a>
+            </li>
+            <li>
+              <a href="#">CSS</a>
+            </li>
+            <li>
+              <a href="#">JavaScript</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#about" data-scroll>About</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+
+<div class="header">
       <h1>
         <span class="site-title">{{ site.username }}</span>
         <span class="site-description">{{ site.user_title }}</span>
@@ -9,9 +46,7 @@
         <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/meghana-venkataswamy"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
         <a aria-label="My Github" target="_blank" href="https://github.com/talktomeg"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
       </div>
-      <div class="header-links">
-        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
-      </div>
+
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  <a  class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
